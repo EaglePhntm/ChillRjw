@@ -12,5 +12,5 @@
 		<li>RimJobWorld</li>
 	</loadAfter>
 	<manifestUri>https://github.com/EaglePhntm/ChillRjw/blob/main/About/Manifest.xml</manifestUri>
-	<downloadUri>https://github.com/EaglePhntm/ChillRjw/</downloadUri>
+	<downloadUri>https://github.com/EaglePhntm/ChillRjw.git</downloadUri>
 </Manifest>
