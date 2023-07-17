@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="PlantHumpShroom"]/plant/sowTags</xpath>
+                <value>
+                    <li>Ground</li>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="PlantHumpShroom"]/plant/fertilitySensitivity</xpath>
+                <value>
+                    <fertilitySensitivity>1.0</fertilitySensitivity>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="PlantHumpShroom"]/plant/growDays</xpath>
+                <value>
+                    <growDays>5.0</growDays>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="PlantHumpShroom"]/plant/harvestYield</xpath>
+                <value>
+                    <harvestYield>3.0</harvestYield>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="PlantHumpShroom"]/plant</xpath>
+                <value>
+                    <cavePlant>false</cavePlant>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

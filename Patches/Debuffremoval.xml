@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Large"]/capMods</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Huge"]/capMods</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Enormous"]/capMods</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Massive"]/capMods</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Gargantuan"]/capMods</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Colossal"]/capMods</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Average"]/capMods</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis" or defName="BionicPenis"]/stages/li[label="Large"]/capMods</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis" or defName="BionicPenis"]/stages/li[label="Huge"]/capMods</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis" or defName="BionicPenis"]/stages/li[label="Towering"]/capMods</xpath>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

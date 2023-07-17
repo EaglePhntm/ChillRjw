@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+	<identifier>ChillRJW</identifier>
+	<version>1.6</version>
+	<dependencies>
+		<li>RimJobWorld</li>
+	</dependencies>
+	<incompatibleWith />
+	<loadBefore>
+	</loadBefore>
+	<loadAfter>
+		<li>RimJobWorld</li>
+	</loadAfter>
+	<manifestUri>https://gitgud.io/EaglePhntm/chillrjw/raw/master/About/Manifest.xml</manifestUri>
+	<downloadUri>https://gitgud.io/EaglePhntm/chillrjw/</downloadUri>
+</Manifest>

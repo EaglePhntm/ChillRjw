@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!--Breast buffs-->
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Large"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.03</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Huge"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.05</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Enormous"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.07</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Massive"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.09</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Gargantuan"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.12</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Colossal"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.15</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="BionicBreasts"]/stages/li[label="Large"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.05</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="BionicBreasts"]/stages/li[label="Huge"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.08</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="BionicBreasts"]/stages/li[label="Enormous"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.10</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="BionicBreasts"]/stages/li[label="Massive"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.12</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="BionicBreasts"]/stages/li[label="Gargantuan"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.15</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="BionicBreasts"]/stages/li[label="Colossal"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.20</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="ArchotechBreasts"]/stages/li[label="Large"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.10</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="ArchotechBreasts"]/stages/li[label="Huge"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.12</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="ArchotechBreasts"]/stages/li[label="Enormous"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.14</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="ArchotechBreasts"]/stages/li[label="Massive"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.16</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="ArchotechBreasts"]/stages/li[label="Gargantuan"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.18</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="ArchotechBreasts"]/stages/li[label="Colossal"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.20</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <!--Penis buffs-->
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis"]/stages/li[label="Large"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.03</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis"]/stages/li[label="Huge"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.05</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis"]/stages/li[label="Towering"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.08</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="BionicPenis"]/stages/li[label="Large"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.05</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="BionicPenis"]/stages/li[label="Huge"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.08</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="BionicPenis"]/stages/li[label="Towering"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.10</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="ArchotechPenis"]/stages/li[label="Large"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.10</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="ArchotechPenis"]/stages/li[label="Huge"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.12</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="ArchotechPenis"]/stages/li[label="Towering"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.14</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>
