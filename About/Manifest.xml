@@ -11,6 +11,6 @@
 	<loadAfter>
 		<li>RimJobWorld</li>
 	</loadAfter>
-	<manifestUri>https://gitgud.io/EaglePhntm/chillrjw/raw/master/About/Manifest.xml</manifestUri>
-	<downloadUri>https://gitgud.io/EaglePhntm/chillrjw/</downloadUri>
+	<manifestUri>https://github.com/EaglePhntm/ChillRjw/blob/main/About/Manifest.xml</manifestUri>
+	<downloadUri>https://github.com/EaglePhntm/ChillRjw/</downloadUri>
 </Manifest>
