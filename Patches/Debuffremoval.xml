@@ -24,6 +24,9 @@
 				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Average"]/capMods</xpath>
 			</li>
 			<li Class="PatchOperationRemove">
+				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Titanic"]/capMods</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
 				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis" or defName="BionicPenis"]/stages/li[label="Large"]/capMods</xpath>
 			</li>
 			<li Class="PatchOperationRemove">
