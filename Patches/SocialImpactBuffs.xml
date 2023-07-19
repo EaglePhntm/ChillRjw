@@ -39,12 +39,20 @@
                 <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Gargantuan"]</xpath>
                 <value>
                     <statOffsets>
-                        <SocialImpact>0.12</SocialImpact>
+                        <SocialImpact>0.11</SocialImpact>
                     </statOffsets>
                 </value>
             </li>
             <li Class="PatchOperationAdd">
                 <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Colossal"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.13</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Titanic"]</xpath>
                 <value>
                     <statOffsets>
                         <SocialImpact>0.15</SocialImpact>
@@ -55,7 +63,7 @@
                 <xpath>/Defs/rjw.HediffDef_PartBase[defName="BionicBreasts"]/stages/li[label="Large"]</xpath>
                 <value>
                     <statOffsets>
-                        <SocialImpact>0.05</SocialImpact>
+                        <SocialImpact>0.08</SocialImpact>
                     </statOffsets>
                 </value>
             </li>
@@ -63,7 +71,7 @@
                 <xpath>/Defs/rjw.HediffDef_PartBase[defName="BionicBreasts"]/stages/li[label="Huge"]</xpath>
                 <value>
                     <statOffsets>
-                        <SocialImpact>0.08</SocialImpact>
+                        <SocialImpact>0.10</SocialImpact>
                     </statOffsets>
                 </value>
             </li>
@@ -71,7 +79,7 @@
                 <xpath>/Defs/rjw.HediffDef_PartBase[defName="BionicBreasts"]/stages/li[label="Enormous"]</xpath>
                 <value>
                     <statOffsets>
-                        <SocialImpact>0.10</SocialImpact>
+                        <SocialImpact>0.12</SocialImpact>
                     </statOffsets>
                 </value>
             </li>
@@ -79,7 +87,7 @@
                 <xpath>/Defs/rjw.HediffDef_PartBase[defName="BionicBreasts"]/stages/li[label="Massive"]</xpath>
                 <value>
                     <statOffsets>
-                        <SocialImpact>0.12</SocialImpact>
+                        <SocialImpact>0.14</SocialImpact>
                     </statOffsets>
                 </value>
             </li>
@@ -87,12 +95,20 @@
                 <xpath>/Defs/rjw.HediffDef_PartBase[defName="BionicBreasts"]/stages/li[label="Gargantuan"]</xpath>
                 <value>
                     <statOffsets>
-                        <SocialImpact>0.15</SocialImpact>
+                        <SocialImpact>0.16</SocialImpact>
                     </statOffsets>
                 </value>
             </li>
             <li Class="PatchOperationAdd">
                 <xpath>/Defs/rjw.HediffDef_PartBase[defName="BionicBreasts"]/stages/li[label="Colossal"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.18</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="BionicBreasts"]/stages/li[label="Titanic"]</xpath>
                 <value>
                     <statOffsets>
                         <SocialImpact>0.20</SocialImpact>
@@ -103,7 +119,7 @@
                 <xpath>/Defs/rjw.HediffDef_PartBase[defName="ArchotechBreasts"]/stages/li[label="Large"]</xpath>
                 <value>
                     <statOffsets>
-                        <SocialImpact>0.10</SocialImpact>
+                        <SocialImpact>0.13</SocialImpact>
                     </statOffsets>
                 </value>
             </li>
@@ -111,7 +127,7 @@
                 <xpath>/Defs/rjw.HediffDef_PartBase[defName="ArchotechBreasts"]/stages/li[label="Huge"]</xpath>
                 <value>
                     <statOffsets>
-                        <SocialImpact>0.12</SocialImpact>
+                        <SocialImpact>0.15</SocialImpact>
                     </statOffsets>
                 </value>
             </li>
@@ -119,7 +135,7 @@
                 <xpath>/Defs/rjw.HediffDef_PartBase[defName="ArchotechBreasts"]/stages/li[label="Enormous"]</xpath>
                 <value>
                     <statOffsets>
-                        <SocialImpact>0.14</SocialImpact>
+                        <SocialImpact>0.17</SocialImpact>
                     </statOffsets>
                 </value>
             </li>
@@ -127,7 +143,7 @@
                 <xpath>/Defs/rjw.HediffDef_PartBase[defName="ArchotechBreasts"]/stages/li[label="Massive"]</xpath>
                 <value>
                     <statOffsets>
-                        <SocialImpact>0.16</SocialImpact>
+                        <SocialImpact>0.19</SocialImpact>
                     </statOffsets>
                 </value>
             </li>
@@ -135,7 +151,7 @@
                 <xpath>/Defs/rjw.HediffDef_PartBase[defName="ArchotechBreasts"]/stages/li[label="Gargantuan"]</xpath>
                 <value>
                     <statOffsets>
-                        <SocialImpact>0.18</SocialImpact>
+                        <SocialImpact>0.21</SocialImpact>
                     </statOffsets>
                 </value>
             </li>
@@ -143,7 +159,15 @@
                 <xpath>/Defs/rjw.HediffDef_PartBase[defName="ArchotechBreasts"]/stages/li[label="Colossal"]</xpath>
                 <value>
                     <statOffsets>
-                        <SocialImpact>0.20</SocialImpact>
+                        <SocialImpact>0.23</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_PartBase[defName="ArchotechBreasts"]/stages/li[label="Titanic"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.25</SocialImpact>
                     </statOffsets>
                 </value>
             </li>
