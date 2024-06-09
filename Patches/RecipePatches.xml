@@ -1,0 +1,68 @@
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name="CookMealBase"]/defaultIngredientFilter/disallowedThingDefs</xpath>
+		<value>
+			<li MayRequire="rjw.sexperience">GatheredCum</li>
+			<li MayRequire="rim.job.world">UsedCondom</li>
+			<li MayRequire="rim.job.world">HumpShroom</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="Make_BabyFood" or defName="Make_BabyFoodBulk"]/fixedIngredientFilter</xpath>
+		<value>
+			<disallowedThingDefs>
+				<li MayRequire="rjw.sexperience">GatheredCum</li>
+				<li MayRequire="rim.job.world">UsedCondom</li>
+				<li MayRequire="rim.job.world">HumpShroom</li>
+			</disallowedThingDefs>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_Kibble"]/defaultIngredientFilter/disallowedThingDefs</xpath>
+		<value>
+			<li MayRequire="rjw.sexperience">GatheredCum</li>
+			<li MayRequire="rim.job.world">UsedCondom</li>
+			<li MayRequire="rim.job.world">HumpShroom</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[defName="Make_Pemmican" or defName="Make_PemmicanBulk"]/defaultIngredientFilter/disallowedThingDefs</xpath>
+		<value>
+			<li MayRequire="rim.job.world">HumpShroom</li>
+		</value>
+	</Operation>
+	
+	<!-- Vanilla Expanded recipes -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/RecipeDef[@Name="CookGourmetMealBase" or @Name="VCE_CookBakeMealBase" or @Name="VCE_CookGourmetBakeMealBase" or @Name="VCE_CookDessertMealBase" or @Name="VCE_CookComplexDessertMealBase" or @Name="VCE_CookGourmetDessertMealBase"]/defaultIngredientFilter/disallowedThingDefs</xpath>
+			<value>
+				<li MayRequire="rjw.sexperience">GatheredCum</li>
+				<li MayRequire="rim.job.world">UsedCondom</li>
+				<li MayRequire="rim.job.world">HumpShroom</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded - Sushi</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/RecipeDef[@Name="VCE_CookSushiMealBase" or @Name="VCE_CookFineSushiMealBase" or @Name="VCE_CookGourmetSushiMealBase"]/defaultIngredientFilter</xpath>
+			<value>
+				<disallowedThingDefs>
+					<li MayRequire="rjw.sexperience">GatheredCum</li>
+					<li MayRequire="rim.job.world">UsedCondom</li>
+					<li MayRequire="rim.job.world">HumpShroom</li>
+				</disallowedThingDefs>
+			</value>
+		</match>
+	</Operation>
+</Patch>
