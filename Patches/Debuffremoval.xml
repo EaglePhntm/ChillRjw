@@ -3,37 +3,37 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationRemove">
-				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Large"]/capMods</xpath>
+				<xpath>/Defs/rjw.HediffDef_SexPart[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Large"]/capMods</xpath>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Huge"]/capMods</xpath>
+				<xpath>/Defs/rjw.HediffDef_SexPart[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Huge"]/capMods</xpath>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Enormous"]/capMods</xpath>
+				<xpath>/Defs/rjw.HediffDef_SexPart[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Enormous"]/capMods</xpath>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Massive"]/capMods</xpath>
+				<xpath>/Defs/rjw.HediffDef_SexPart[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Massive"]/capMods</xpath>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Gargantuan"]/capMods</xpath>
+				<xpath>/Defs/rjw.HediffDef_SexPart[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Gargantuan"]/capMods</xpath>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Colossal"]/capMods</xpath>
+				<xpath>/Defs/rjw.HediffDef_SexPart[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Colossal"]/capMods</xpath>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Average"]/capMods</xpath>
+				<xpath>/Defs/rjw.HediffDef_SexPart[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Average"]/capMods</xpath>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Titanic"]/capMods</xpath>
+				<xpath>/Defs/rjw.HediffDef_SexPart[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Titanic"]/capMods</xpath>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis" or defName="BionicPenis"]/stages/li[label="Large"]/capMods</xpath>
+				<xpath>/Defs/rjw.HediffDef_SexPart[@Name="NaturalPrivatePartPenis" or defName="BionicPenis"]/stages/li[label="Large"]/capMods</xpath>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis" or defName="BionicPenis"]/stages/li[label="Huge"]/capMods</xpath>
+				<xpath>/Defs/rjw.HediffDef_SexPart[@Name="NaturalPrivatePartPenis" or defName="BionicPenis"]/stages/li[label="Huge"]/capMods</xpath>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis" or defName="BionicPenis"]/stages/li[label="Towering"]/capMods</xpath>
+				<xpath>/Defs/rjw.HediffDef_SexPart[@Name="NaturalPrivatePartPenis" or defName="BionicPenis"]/stages/li[label="Towering"]/capMods</xpath>
 			</li>
 		</operations>
 	</Operation>
