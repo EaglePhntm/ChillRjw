@@ -60,8 +60,6 @@
                 </value>
             </li>
 			
-			<!-- This is the new line of code -RobTheRobotGuard!-->
-			
 			<li Class="PatchOperationAdd">
                 <xpath>/Defs/rjw.HediffDef_SexPart[@Name="NaturalPrivatePartBreast"]/stages/li[label="Astronomical"]</xpath>
                 <value>
@@ -130,8 +128,6 @@
             </li>
 			
 			
-			<!-- This is the new line of code !-->
-			
 			<li Class="PatchOperationAdd">
                 <xpath>/Defs/rjw.HediffDef_SexPart[defName="BionicBreasts"]/stages/li[label="Astronomical"]</xpath>
                 <value>
@@ -198,8 +194,6 @@
                     </statOffsets>
                 </value>
             </li>
-			
-			<!-- This is the new line of code !--> 
 			
 			<li Class="PatchOperationAdd">
                 <xpath>/Defs/rjw.HediffDef_SexPart[defName="ArchotechBreasts"]/stages/li[label="Astronomical"]</xpath>
