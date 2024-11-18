@@ -27,8 +27,6 @@
 				<xpath>/Defs/rjw.HediffDef_SexPart[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Titanic"]/capMods</xpath>
 			</li>
 			
-			<!-- This is the new line of code -RobTheRobotGuard!-->
-			
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/rjw.HediffDef_SexPart[@Name="NaturalPrivatePartBreast" or defName="BionicBreasts" or defName="ArchotechBreasts"]/stages/li[label="Astronomical"]/capMods</xpath>
 			</li>
