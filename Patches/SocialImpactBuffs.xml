@@ -59,6 +59,19 @@
                     </statOffsets>
                 </value>
             </li>
+			
+			<!-- This is the new line of code -RobTheRobotGuard!-->
+			
+			<li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_SexPart[@Name="NaturalPrivatePartBreast"]/stages/li[label="Astronomical"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.17</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+			
+			
             <li Class="PatchOperationAdd">
                 <xpath>/Defs/rjw.HediffDef_SexPart[defName="BionicBreasts"]/stages/li[label="Large"]</xpath>
                 <value>
@@ -115,6 +128,20 @@
                     </statOffsets>
                 </value>
             </li>
+			
+			
+			<!-- This is the new line of code !-->
+			
+			<li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_SexPart[defName="BionicBreasts"]/stages/li[label="Astronomical"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.22</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+			
+			
             <li Class="PatchOperationAdd">
                 <xpath>/Defs/rjw.HediffDef_SexPart[defName="ArchotechBreasts"]/stages/li[label="Large"]</xpath>
                 <value>
@@ -168,6 +195,17 @@
                 <value>
                     <statOffsets>
                         <SocialImpact>0.25</SocialImpact>
+                    </statOffsets>
+                </value>
+            </li>
+			
+			<!-- This is the new line of code !--> 
+			
+			<li Class="PatchOperationAdd">
+                <xpath>/Defs/rjw.HediffDef_SexPart[defName="ArchotechBreasts"]/stages/li[label="Astronomical"]</xpath>
+                <value>
+                    <statOffsets>
+                        <SocialImpact>0.27</SocialImpact>
                     </statOffsets>
                 </value>
             </li>
