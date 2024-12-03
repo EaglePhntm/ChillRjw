@@ -141,20 +141,31 @@
                 </value>
             </li>
 
-
-            <li Class="PatchOperationAdd">
-                <xpath>/Defs/rjw.HediffDef_SexPart[defName="BionicBreasts"]/stages</xpath>
-                <value>
-                    <li>
-                        <label>Astronomical</label>
-                        <minSeverity>2.0</minSeverity>
+            <li Class="PatchOperationConditional">
+                <xpath>
+                    /Defs/rjw.HediffDef_SexPart[defName="BionicBreasts"]/stages/li[label="Astronomical"]</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/rjw.HediffDef_SexPart[defName="BionicBreasts"]/stages</xpath>
+                    <value>
+                        <li>
+                            <label>Astronomical</label>
+                            <minSeverity>2.0</minSeverity>
+                            <statOffsets>
+                                <SocialImpact>0.22</SocialImpact>
+                            </statOffsets>
+                        </li>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/rjw.HediffDef_SexPart[defName="BionicBreasts"]/stages/li[label="Astronomical"]</xpath>
+                    <value>
                         <statOffsets>
                             <SocialImpact>0.22</SocialImpact>
                         </statOffsets>
-                    </li>
-                </value>
+                    </value>
+                </match>
             </li>
-
 
             <li Class="PatchOperationAdd">
                 <xpath>
@@ -220,17 +231,30 @@
                 </value>
             </li>
 
-            <li Class="PatchOperationAdd">
-                <xpath>/Defs/rjw.HediffDef_SexPart[defName="ArchotechBreasts"]/stages</xpath>
-                <value>
-                    <li>
-                        <label>Astronomical</label>
-                        <minSeverity>2.0</minSeverity>
+            <li Class="PatchOperationConditional">
+                <xpath>
+                    /Defs/rjw.HediffDef_SexPart[defName="ArchotechBreasts"]/stages/li[label="Astronomical"]</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/rjw.HediffDef_SexPart[defName="ArchotechBreasts"]/stages</xpath>
+                    <value>
+                        <li>
+                            <label>Astronomical</label>
+                            <minSeverity>2.0</minSeverity>
+                            <statOffsets>
+                                <SocialImpact>0.27</SocialImpact>
+                            </statOffsets>
+                        </li>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/rjw.HediffDef_SexPart[defName="ArchotechBreasts"]/stages/li[label="Astronomical"]</xpath>
+                    <value>
                         <statOffsets>
                             <SocialImpact>0.27</SocialImpact>
                         </statOffsets>
-                    </li>
-                </value>
+                    </value>
+                </match>
             </li>
 
             <!--Penis
