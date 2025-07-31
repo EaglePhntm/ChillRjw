@@ -5,7 +5,7 @@
             <li Class="PatchOperationAdd">
                 <xpath>/Defs/ThingDef[defName="PlantHumpShroom"]/plant</xpath>
                 <value>
-                    <diesToLight>false</diesToLight>
+                    <diesToLight Inherit="False">false</diesToLight>
                 </value>
             </li>
         </operations>
