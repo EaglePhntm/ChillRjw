@@ -26,12 +26,6 @@
                     <harvestYield>3.0</harvestYield>
                 </value>
             </li>
-            <li Class="PatchOperationAdd">
-                <xpath>/Defs/ThingDef[defName="PlantHumpShroom"]/plant</xpath>
-                <value>
-                    <cavePlant>false</cavePlant>
-                </value>
-            </li>
         </operations>
     </Operation>
 </Patch>
