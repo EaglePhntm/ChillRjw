@@ -9,6 +9,7 @@ Requirements:
 Rimjobworld (https://gitgud.io/Ed86/rjw)
 
 Changes to RJW
-- Adds Social impact buff to bigger parts
-- removes natural, bionic body part debuffs
-- Makes humpshroom grow faster and easier, makes it survive in light, grow on ground and give more yield
+- Adds social impact buff to bigger lewd parts
+- Removes natural and bionic body part debuffs (not hydraulic/peg as they are supposed to be worse).
+- Makes humpshroom less painful to grow and makes it possible to grow it on the ground and in light.
+- Removes cum, humpshroom and condoms from default selection for most meals.
